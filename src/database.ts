@@ -1,7 +1,7 @@
 import {connect} from 'mongoose';
 
 export async function startConnection(){
-   await connect('mongodb://localhost/photo-gallery-db', {
+   await connect('mongodb+srv://isaacal:Bart1234@cluster0.d6g0oem.mongodb.net/?retryWrites=true&w=majority', {
         // useNewUrlParser: true,
         //   useFindAndModify: false
 
